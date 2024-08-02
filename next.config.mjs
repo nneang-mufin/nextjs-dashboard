@@ -2,8 +2,8 @@
 
 const nextConfig = {
   experimental: {
-    serverComponentsExternalPackages: ['bcrypt'],
-  }
+    ppr: 'incremental',
+  },
 };
 
 export default nextConfig;
